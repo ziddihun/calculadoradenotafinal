@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>¿Cuánto necesito para el final? Calculadora de notas Colombia</title>
+<meta name="description" content="Calcula cuánto necesitas sacar en el examen final para aprobar. Escala colombiana de 0.0 a 5.0, nota mínima 3.0, con cortes y porcentajes. Gratis y al instante.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Calculadora de notas Colombia">
+<meta name="theme-color" content="#47D395">
+
+<!-- REEMPLAZA https://www.tudominio.com/cuanto-necesito-para-el-final/ por la URL real donde publiques esta página -->
+<link rel="canonical" href="https://www.tudominio.com/cuanto-necesito-para-el-final/">
+<link rel="alternate" hreflang="es-CO" href="https://www.tudominio.com/cuanto-necesito-para-el-final/">
+<link rel="alternate" hreflang="x-default" href="https://www.tudominio.com/cuanto-necesito-para-el-final/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2347D395'/%3E%3Ctext x='50' y='72' font-size='64' font-weight='900' text-anchor='middle' font-family='Arial' fill='%23000'%3E3.0%3C/text%3E%3C/svg%3E">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Calculadora de notas Colombia">
+<meta property="og:title" content="¿Cuánto necesito para el final? Calculadora de notas Colombia">
+<meta property="og:description" content="Escribe tus notas y porcentajes y descubre qué nota necesitas en el examen final para aprobar con la escala colombiana de 0.0 a 5.0.">
+<meta property="og:url" content="https://www.tudominio.com/cuanto-necesito-para-el-final/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="¿Cuánto necesito para el final? Calculadora de notas Colombia">
+<meta name="twitter:description" content="Calcula la nota que necesitas en el examen final para aprobar. Escala 0.0 a 5.0, aprobando con 3.0.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "¿Cuánto necesito para el final? Calculadora de notas Colombia",
+  "url": "https://www.tudominio.com/cuanto-necesito-para-el-final/",
+  "description": "Calculadora gratuita que indica qué nota necesitas en el examen final para aprobar una materia, usando la escala de calificación colombiana de 0.0 a 5.0 y notas ponderadas por porcentaje.",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Cualquier dispositivo con navegador web",
+  "inLanguage": "es-CO",
+  "isAccessibleForFree": true,
+  "dateModified": "2026-09-20",
+  "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "COP" },
+  "featureList": [
+    "Escala colombiana de 0.0 a 5.0 por defecto",
+    "Nota para aprobar configurable (3.0 por defecto)",
+    "Notas ponderadas por porcentaje",
+    "Meta personalizada, por ejemplo 3.5 o 4.0",
+    "Redondeo hacia arriba a uno o dos decimales"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo calculo cuánto necesito en el examen final?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multiplica cada nota por su porcentaje y suma los resultados para obtener tu acumulado. Luego resta ese acumulado de la nota que quieres sacar y divide entre el peso del final expresado como decimal (40 % equivale a 0.4). La calculadora hace estos pasos por ti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la nota mínima para aprobar en Colombia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En la mayoría de colegios y universidades del país se aprueba con 3.0 sobre 5.0, pero cada institución define su propio reglamento y algunos posgrados o programas piden 3.5 o más. Confirma el dato en tu reglamento estudiantil y ajústalo en la calculadora si es distinto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa si los porcentajes no suman 100 %?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Por defecto, la calculadora asume que el examen final vale lo que falta para llegar al 100 %. Si tu final tiene un peso fijo, elige la opción Manual en los ajustes; en ese caso todos los porcentajes deben sumar exactamente 100 %."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se redondea la nota que necesito?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Se redondea hacia arriba con el número de decimales que elijas, para que tu definitiva no quede por debajo de la meta. Además puedes ver el valor exacto del cálculo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo usarla con una escala de 0 a 10 o de 0 a 100?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Cambia la nota mínima, la nota máxima y la nota para aprobar en los ajustes. La fórmula es la misma para cualquier escala."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Sirve para el colegio, el instituto técnico y la universidad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sirve para cualquier materia calificada con un promedio ponderado. Reglas como aproximaciones, notas mínimas por corte o exámenes con nota aprobatoria propia dependen de cada institución y no están incluidas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La calculadora guarda mis notas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Los cálculos se hacen en tu navegador y no se envía ninguna nota a un servidor."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --pink: #F71FC6;
+    --green: #47D395;
+    --ink: #000;
+    --text: #1f1f1f;
+    --muted: #4a4a4a;
+    --line: #b9b9b9;
+    --err: #b3261e;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: Georgia, "Noto Serif", "Times New Roman", serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    color: var(--text);
+    font-family: var(--serif);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px 56px; }
+
+  /* Navegación */
+  .topnav { padding: 18px 0 0; font-family: var(--sans); font-size: .95rem; }
+  .topnav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 20px; }
+  .topnav a { color: var(--ink); font-weight: 600; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .topnav a:hover { text-decoration-color: var(--pink); }
+
+  /* Titulares */
+  h1, h2, h3 { font-family: var(--sans); color: var(--ink); line-height: 1.15; letter-spacing: -.02em; }
+  h1 { font-size: clamp(2.1rem, 6.2vw, 3.4rem); font-weight: 800; margin: 34px 0 14px; max-width: 18ch; }
+  h2 { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 800; margin: 56px 0 14px; }
+  h3 { font-size: 1.15rem; font-weight: 700; margin: 26px 0 6px; letter-spacing: -.01em; }
+  .lead { font-size: 1.2rem; max-width: 60ch; margin: 0 0 34px; }
+  p { margin: 0 0 1em; max-width: 68ch; }
+
+  a { color: var(--ink); }
+
+  :focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+  /* Paneles de la herramienta */
+  .panel {
+    --c: var(--pink);
+    --hc: #fff;
+    border: 3px solid var(--c);
+    box-shadow: 8px 8px 0 var(--c);
+    margin: 0 8px 44px 0;
+    font-family: var(--sans);
+    color: var(--ink);
+  }
+  .panel--out { --c: var(--green); --hc: #000; }
+  .panel-head {
+    margin: 0;
+    padding: 10px 18px;
+    background: var(--c);
+    color: var(--hc);
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: -.01em;
+  }
+  .panel-body { padding: 20px 18px 22px; }
+
+  label, .label { display: block; font-size: .92rem; font-weight: 700; margin: 0 0 5px; }
+  .hint { font-size: .85rem; color: var(--muted); font-weight: 400; margin: 5px 0 0; max-width: none; }
+
+  input[type="text"], select {
+    width: 100%;
+    min-height: 46px;
+    padding: 8px 10px;
+    font: 500 1rem var(--sans);
+    color: var(--ink);
+    background: transparent;
+    border: 2px solid var(--ink);
+    border-radius: 4px;
+  }
+  input::placeholder { color: #666; opacity: 1; }
+
+  /* Ajustes */
+  details.settings { border: 2px solid var(--ink); border-radius: 4px; margin: 0 0 26px; }
+  details.settings > summary {
+    cursor: pointer;
+    padding: 11px 14px;
+    font-weight: 700;
+    list-style: none;
+  }
+  details.settings > summary::-webkit-details-marker { display: none; }
+  details.settings > summary::before { content: "+"; display: inline-block; width: 1.2em; font-weight: 800; }
+  details.settings[open] > summary::before { content: "\2212"; }
+  .settings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 6px 14px 16px;
+  }
+  .settings-foot { padding: 0 14px 16px; }
+
+  /* Evaluaciones */
+  .row-head, .row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 6.5rem 6.5rem 46px;
+    gap: 10px;
+    align-items: center;
+  }
+  .row-head { font-size: .92rem; font-weight: 700; margin-bottom: 5px; }
+  .row { margin-bottom: 10px; }
+  .icon-btn {
+    min-height: 46px; width: 46px;
+    font: 700 1.1rem var(--sans);
+    color: var(--ink);
+    background: transparent;
+    border: 2px solid var(--ink);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .icon-btn:hover { background: var(--pink); color: #fff; border-color: var(--pink); }
+
+  .btn {
+    font: 800 1.05rem var(--sans);
+    min-height: 50px;
+    padding: 10px 26px;
+    color: var(--ink);
+    border: 3px solid var(--ink);
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 var(--ink);
+    transition: transform .08s, box-shadow .08s;
+  }
+  .btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
+  .btn--go { background: var(--green); }
+  .btn--clear { background: transparent; }
+  .btn--clear:hover { border-color: var(--pink); box-shadow: 4px 4px 0 var(--pink); }
+  .btn--ghost {
+    font: 700 .95rem var(--sans);
+    min-height: 42px;
+    padding: 6px 14px;
+    background: transparent;
+    border: 2px dashed var(--ink);
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--ink);
+  }
+  .btn--ghost:hover { border-style: solid; border-color: var(--pink); }
+
+  .target-wrap { max-width: 22rem; margin: 22px 0 26px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 14px; }
+
+  /* Errores */
+  .errors {
+    border: 2px solid var(--err);
+    color: var(--err);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin: 0 0 22px;
+    font-weight: 600;
+  }
+  .errors ul { margin: 0; padding-left: 1.2em; }
+  .errors p { margin: 0 0 4px; }
+
+  /* Resultado */
+  .verdict { font-size: 1.25rem; font-weight: 800; margin: 0 0 4px; max-width: none; }
+  .verdict--no { color: var(--err); }
+  .big {
+    font-size: clamp(3.6rem, 16vw, 6.5rem);
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -.04em;
+    margin: 4px 0 8px;
+    max-width: none;
+  }
+  .big .of { font-size: 1.1rem; font-weight: 600; letter-spacing: 0; color: var(--muted); }
+  .result-note { max-width: 60ch; }
+  .meter { position: relative; height: 16px; border: 2px solid var(--ink); border-radius: 4px; margin: 18px 0 4px; }
+  .meter-fill { position: absolute; inset: 0 auto 0 0; background: var(--green); border-right: 2px solid var(--ink); }
+  .meter-scale { display: flex; justify-content: space-between; font-size: .85rem; color: var(--muted); margin-bottom: 20px; }
+
+  dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 22px; margin: 18px 0 8px; }
+  dl.facts dt { font-weight: 600; }
+  dl.facts dd { margin: 0; font-weight: 800; }
+
+  .table-scroll { overflow-x: auto; margin-top: 18px; }
+  table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: .95rem; }
+  caption { text-align: left; font-weight: 700; padding-bottom: 6px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  thead th { border-bottom: 2px solid var(--ink); }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .panel--out:not([hidden]) { animation: reveal .18s ease-out; }
+    @keyframes reveal { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  }
+
+  /* Contenido informativo (SEO) */
+  .content table { font-size: 1rem; margin: 10px 0 8px; max-width: 640px; }
+  .content thead th { font-weight: 800; }
+  .formula {
+    font-family: var(--sans);
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-left: 6px solid var(--pink);
+    padding: 8px 0 8px 16px;
+    margin: 18px 0;
+    max-width: none;
+  }
+  .steps { padding-left: 1.4em; max-width: 68ch; }
+  .steps li { margin-bottom: .6em; padding-left: .3em; }
+  .small { font-size: .92rem; color: var(--muted); }
+  footer { border-top: 3px solid var(--green); margin-top: 60px; padding-top: 18px; font-size: .95rem; }
+  footer p { max-width: 68ch; }
+
+  @media (max-width: 640px) {
+    body { font-size: 1rem; }
+    .wrap { padding: 0 16px 48px; }
+    .panel { box-shadow: 5px 5px 0 var(--c); margin-right: 5px; }
+    .settings-grid { grid-template-columns: 1fr 1fr; }
+    .row-head { display: none; }
+    .row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 46px; }
+    .row .r-name { grid-column: 1 / -1; }
+    .btn { flex: 1 1 100%; }
+  }
+  @media (max-width: 380px) {
+    .settings-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header>
+    <nav class="topnav" aria-label="Secciones de la página">
+      <ul>
+        <li><a href="#calculadora">Calculadora</a></li>
+        <li><a href="#como-usar">Cómo se usa</a></li>
+        <li><a href="#formula">La fórmula</a></li>
+        <li><a href="#escala">Escala en Colombia</a></li>
+        <li><a href="#referencia">Tabla de referencia</a></li>
+        <li><a href="#preguntas">Preguntas frecuentes</a></li>
+      </ul>
+    </nav>
+
+    <h1>¿Cuánto necesito para el final? Calculadora de notas de Colombia</h1>
+    <p class="lead">Escribe las notas que ya tienes y lo que vale cada una. La calculadora te dice qué nota necesitas en el examen final para aprobar, con la escala colombiana de 0.0 a 5.0 y 3.0 como nota mínima.</p>
+  </header>
+
+  <main>
+
+    <!-- HERRAMIENTA -->
+    <section id="calculadora" aria-labelledby="t-calc">
+      <form id="calc" class="panel panel--in" novalidate autocomplete="off">
+        <h2 class="panel-head" id="t-calc">Tus notas</h2>
+        <div class="panel-body">
+
+          <details class="settings">
+            <summary>Ajustes de la escala (predeterminado: Colombia, 0.0 a 5.0, aprueba con 3.0)</summary>
+            <div class="settings-grid">
+              <div>
+                <label for="min">Nota mínima</label>
+                <input type="text" id="min" inputmode="decimal" value="0.0">
+              </div>
+              <div>
+                <label for="max">Nota máxima</label>
+                <input type="text" id="max" inputmode="decimal" value="5.0">
+              </div>
+              <div>
+                <label for="pass">Nota para aprobar</label>
+                <input type="text" id="pass" inputmode="decimal" value="3.0">
+              </div>
+              <div>
+                <label for="dec">Decimales del resultado</label>
+                <select id="dec">
+                  <option value="1" selected>1 decimal (3.5)</option>
+                  <option value="2">2 decimales (3.45)</option>
+                </select>
+              </div>
+              <div>
+                <label for="wmode">Peso del examen final</label>
+                <select id="wmode">
+                  <option value="auto" selected>Automático: lo que falta para 100 %</option>
+                  <option value="manual">Manual: lo escribo yo</option>
+                </select>
+              </div>
+              <div id="fw-wrap" hidden>
+                <label for="fw">Peso del final (%)</label>
+                <input type="text" id="fw" inputmode="decimal" placeholder="Porcentaje">
+              </div>
+            </div>
+            <div class="settings-foot">
+              <button type="button" class="btn--ghost" id="reset-scale">Restablecer escala colombiana</button>
+            </div>
+          </details>
+
+          <p class="label" id="eval-label">Evaluaciones que ya tienes</p>
+          <div class="row-head" aria-hidden="true">
+            <span>Nombre (opcional)</span><span>Nota</span><span>Peso (%)</span><span></span>
+          </div>
+          <div id="rows" role="group" aria-labelledby="eval-label"></div>
+          <button type="button" class="btn--ghost" id="add-row">+ Agregar evaluación</button>
+
+          <div class="target-wrap">
+            <label for="target">Nota que quieres sacar en la materia (opcional)</label>
+            <input type="text" id="target" inputmode="decimal" placeholder="Vacío = la nota para aprobar">
+            <p class="hint">Escribe, por ejemplo, 3.5 o 4.0 si quieres más que aprobar.</p>
+          </div>
+
+          <div id="errors" class="errors" role="alert" hidden></div>
+
+          <div class="actions">
+            <button type="submit" class="btn btn--go" id="btn-calc">Calcular</button>
+            <button type="button" class="btn btn--clear" id="btn-clear">Limpiar</button>
+          </div>
+        </div>
+      </form>
+
+      <section id="result" class="panel panel--out" aria-labelledby="t-result" hidden>
+        <h2 class="panel-head" id="t-result" tabindex="-1">Tu resultado</h2>
+        <div class="panel-body" id="result-body" aria-live="polite"></div>
+      </section>
+    </section>
+
+    <div class="content">
+
+      <section id="como-usar" aria-labelledby="h-uso">
+        <h2 id="h-uso">Cómo calcular cuánto necesitas en el examen final</h2>
+        <p>Esta calculadora sirve para saber qué nota necesitas en el examen final, o en la última evaluación del semestre, para aprobar la materia. Funciona con cortes, parciales, talleres, quices y cualquier otra nota que tenga un porcentaje.</p>
+        <ol class="steps">
+          <li>Revisa los ajustes. Vienen listos para la escala colombiana: notas de 0.0 a 5.0 y 3.0 para aprobar. Cámbialos solo si tu institución usa otra escala.</li>
+          <li>Escribe cada evaluación que ya presentaste con su nota y su porcentaje. Puedes usar punto o coma para los decimales.</li>
+          <li>Si quieres sacar más que la nota mínima, escribe tu meta, por ejemplo 3.5 o 4.0. Si la dejas vacía, el cálculo es para aprobar.</li>
+          <li>Pulsa Calcular. El resultado solo aparece cuando tú lo pides. Pulsa Limpiar para empezar con otra materia.</li>
+        </ol>
+      </section>
+
+      <section id="formula" aria-labelledby="h-formula">
+        <h2 id="h-formula">La fórmula para despejar la nota del final</h2>
+        <p>La nota definitiva de una materia es un promedio ponderado: cada evaluación aporta su nota multiplicada por su porcentaje. Lo que ya llevas se llama acumulado, y lo que falta lo tiene que aportar el examen final.</p>
+        <p class="formula">Nota necesaria = (Nota meta − Acumulado) ÷ (Peso del final ÷ 100)</p>
+        <p>El acumulado es la suma de nota × porcentaje ÷ 100 de cada evaluación que ya tienes.</p>
+        <h3>Ejemplo con la escala de 0.0 a 5.0</h3>
+        <p>Sacaste 3.8 en el primer corte (30 %) y 2.5 en el segundo (30 %). El final vale el 40 % restante.</p>
+        <p>Acumulado = 3.8 × 0.30 + 2.5 × 0.30 = 1.14 + 0.75 = 1.89.<br>
+        Para aprobar con 3.0: (3.0 − 1.89) ÷ 0.40 = 2.775, así que necesitas 2.8 en el final.<br>
+        Para terminar con 3.5: (3.5 − 1.89) ÷ 0.40 = 4.025, así que necesitas 4.1 con un decimal.</p>
+        <p>La calculadora redondea hacia arriba para que tu definitiva no quede por debajo de la meta. También te muestra el valor exacto del cálculo.</p>
+      </section>
+
+      <section id="escala" aria-labelledby="h-escala">
+        <h2 id="h-escala">La escala de calificación en Colombia</h2>
+        <p>En Colombia la escala numérica más usada va de 0.0 a 5.0, con una décima de precisión. En los colegios suele empezar en 1.0 y en las universidades en 0.0. En la mayoría de instituciones la nota mínima aprobatoria es 3.0, aunque algunos posgrados y programas piden 3.5 o más. Tu reglamento estudiantil tiene la última palabra.</p>
+        <p>Para la educación básica y media, el Decreto 1290 de 2009 fija la escala nacional de valoración en cuatro niveles de desempeño: superior, alto, básico y bajo. Cada colegio define la equivalencia numérica en su sistema institucional de evaluación. Esta es una de las más comunes:</p>
+        <div class="table-scroll">
+          <table>
+            <caption>Equivalencia frecuente entre notas y desempeños</caption>
+            <thead><tr><th scope="col">Desempeño</th><th scope="col" class="num">Rango de notas</th><th scope="col">¿Aprueba?</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Superior</th><td class="num">4.6 a 5.0</td><td>Sí</td></tr>
+              <tr><th scope="row">Alto</th><td class="num">4.0 a 4.5</td><td>Sí</td></tr>
+              <tr><th scope="row">Básico</th><td class="num">3.0 a 3.9</td><td>Sí</td></tr>
+              <tr><th scope="row">Bajo</th><td class="num">1.0 a 2.9</td><td>No</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small">Si tu colegio califica desde 1.0, cambia la nota mínima a 1.0 en los ajustes de la calculadora.</p>
+      </section>
+
+      <section id="referencia" aria-labelledby="h-ref">
+        <h2 id="h-ref">Tabla de referencia: llevas el 60 % y el final vale el 40 %</h2>
+        <p>Esta tabla muestra qué nota necesitas en el examen final para aprobar con 3.0, según el promedio de las evaluaciones que ya presentaste.</p>
+        <div class="table-scroll">
+          <table>
+            <caption>Nota necesaria en el final para aprobar con 3.0 (un decimal, redondeado hacia arriba)</caption>
+            <thead><tr><th scope="col">Promedio de tus notas actuales</th><th scope="col">Nota necesaria en el final</th></tr></thead>
+            <tbody>
+              <tr><td>1.5</td><td>Imposible: necesitarías 5.3</td></tr>
+              <tr><td>2.0</td><td>4.5</td></tr>
+              <tr><td>2.5</td><td>3.8</td></tr>
+              <tr><td>3.0</td><td>3.0</td></tr>
+              <tr><td>3.5</td><td>2.3</td></tr>
+              <tr><td>4.0</td><td>1.5</td></tr>
+              <tr><td>4.5</td><td>0.8</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small">Es solo una guía. Para tu caso real usa la calculadora con tus notas y porcentajes.</p>
+      </section>
+
+      <section id="preguntas" aria-labelledby="h-faq">
+        <h2 id="h-faq">Preguntas frecuentes</h2>
+
+        <h3>¿Cómo calculo cuánto necesito en el examen final?</h3>
+        <p>Multiplica cada nota por su porcentaje y suma los resultados para obtener tu acumulado. Luego resta ese acumulado de la nota que quieres sacar y divide entre el peso del final expresado como decimal (40 % equivale a 0.4). La calculadora hace estos pasos por ti.</p>
+
+        <h3>¿Cuál es la nota mínima para aprobar en Colombia?</h3>
+        <p>En la mayoría de colegios y universidades del país se aprueba con 3.0 sobre 5.0, pero cada institución define su propio reglamento y algunos posgrados o programas piden 3.5 o más. Confirma el dato en tu reglamento estudiantil y ajústalo en la calculadora si es distinto.</p>
+
+        <h3>¿Qué pasa si los porcentajes no suman 100 %?</h3>
+        <p>Por defecto, la calculadora asume que el examen final vale lo que falta para llegar al 100 %. Si tu final tiene un peso fijo, elige la opción Manual en los ajustes; en ese caso todos los porcentajes deben sumar exactamente 100 %.</p>
+
+        <h3>¿Cómo se redondea la nota que necesito?</h3>
+        <p>Se redondea hacia arriba con el número de decimales que elijas, para que tu definitiva no quede por debajo de la meta. Además puedes ver el valor exacto del cálculo.</p>
+
+        <h3>¿Puedo usarla con una escala de 0 a 10 o de 0 a 100?</h3>
+        <p>Sí. Cambia la nota mínima, la nota máxima y la nota para aprobar en los ajustes. La fórmula es la misma para cualquier escala.</p>
+
+        <h3>¿Sirve para el colegio, el instituto técnico y la universidad?</h3>
+        <p>Sirve para cualquier materia calificada con un promedio ponderado. Reglas como aproximaciones, notas mínimas por corte o exámenes con nota aprobatoria propia dependen de cada institución y no están incluidas.</p>
+
+        <h3>¿La calculadora guarda mis notas?</h3>
+        <p>No. Los cálculos se hacen en tu navegador y no se envía ninguna nota a un servidor.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>Calculadora informativa de notas para estudiantes de Colombia. Si el reglamento de tu institución tiene reglas especiales, esas reglas mandan sobre este cálculo.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var $ = function (id) { return document.getElementById(id); };
+  var form = $('calc'), rowsEl = $('rows'), errBox = $('errors');
+  var resultSec = $('result'), resultBody = $('result-body');
+
+  var DEFAULTS = { min: '0.0', max: '5.0', pass: '3.0', dec: '1', wmode: 'auto' };
+  var INITIAL_ROWS = 3;
+
+  /* ---------- utilidades ---------- */
+  function parseNum(v) {
+    var s = String(v == null ? '' : v).trim().replace(/\s+/g, '').replace(',', '.');
+    if (!/^-?(\d+\.?\d*|\.\d+)$/.test(s)) { return NaN; }
+    return parseFloat(s);
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function clean(n) { return Math.abs(n) < 1e-12 ? 0 : n; }
+  function fmt(n, d) { return clean(n).toFixed(d); }
+  function g(n) { return Number.isInteger(n) ? n.toFixed(1) : String(Number(clean(n).toFixed(2))); }
+  function pct(n) { return String(Number(clean(n).toFixed(2))); }
+  function ceilTo(x, d) { var f = Math.pow(10, d); return Math.ceil(x * f - 1e-9) / f; }
+
+  /* ---------- filas de evaluaciones ---------- */
+  function addRow() {
+    var div = document.createElement('div');
+    div.className = 'row';
+    div.innerHTML =
+      '<input type="text" class="r-name" placeholder="Nombre (ej. Corte 1)" aria-label="Nombre de la evaluación" maxlength="40">' +
+      '<input type="text" class="r-grade" inputmode="decimal" placeholder="Nota" aria-label="Nota obtenida">' +
+      '<input type="text" class="r-weight" inputmode="decimal" placeholder="Peso %" aria-label="Porcentaje que vale">' +
+      '<button type="button" class="icon-btn r-del" aria-label="Quitar evaluación">\u2715</button>';
+    rowsEl.appendChild(div);
+    return div;
+  }
+  function resetRows() {
+    rowsEl.innerHTML = '';
+    for (var i = 0; i < INITIAL_ROWS; i++) { addRow(); }
+  }
+
+  /* ---------- mostrar / ocultar ---------- */
+  function hideResult() {
+    resultSec.hidden = true;
+    resultBody.innerHTML = '';
+  }
+  function hideErrors() {
+    errBox.hidden = true;
+    errBox.innerHTML = '';
+  }
+  function showErrors(list) {
+    var html = '<p>Revisa esto antes de calcular:</p><ul>';
+    list.forEach(function (e) { html += '<li>' + esc(e) + '</li>'; });
+    errBox.innerHTML = html + '</ul>';
+    errBox.hidden = false;
+  }
+
+  /* ---------- lectura y validación ---------- */
+  function compute() {
+    var errors = [];
+    var min = parseNum($('min').value);
+    var max = parseNum($('max').value);
+    var pass = parseNum($('pass').value);
+    var dec = parseInt($('dec').value, 10) === 2 ? 2 : 1;
+    var mode = $('wmode').value;
+
+    if (isNaN(min) || isNaN(max) || isNaN(pass)) {
+      return { errors: ['En los ajustes, completa la nota mínima, la nota máxima y la nota para aprobar con números.'] };
+    }
+    if (min >= max) {
+      return { errors: ['La nota mínima debe ser menor que la nota máxima.'] };
+    }
+    if (pass < min || pass > max) {
+      return { errors: ['La nota para aprobar debe estar entre ' + g(min) + ' y ' + g(max) + '.'] };
+    }
+
+    var target = pass;
+    var targetRaw = $('target').value.trim();
+    if (targetRaw !== '') {
+      target = parseNum(targetRaw);
+      if (isNaN(target)) {
+        errors.push('La nota que quieres sacar debe ser un número.');
+      } else if (target < min || target > max) {
+        errors.push('La nota que quieres sacar debe estar entre ' + g(min) + ' y ' + g(max) + '.');
+      }
+    }
+
+    var items = [], used = 0, acc = 0;
+    var rowEls = rowsEl.querySelectorAll('.row');
+    Array.prototype.forEach.call(rowEls, function (row, i) {
+      var name = row.querySelector('.r-name').value.trim();
+      var gRaw = row.querySelector('.r-grade').value.trim();
+      var wRaw = row.querySelector('.r-weight').value.trim();
+      if (gRaw === '' && wRaw === '') { return; }
+      var label = 'Evaluación ' + (i + 1) + (name ? ' (' + name + ')' : '');
+      var gr = parseNum(gRaw), w = parseNum(wRaw), ok = true;
+      if (isNaN(gr)) {
+        errors.push(label + ': escribe la nota como número.'); ok = false;
+      } else if (gr < min || gr > max) {
+        errors.push(label + ': la nota debe estar entre ' + g(min) + ' y ' + g(max) + '.'); ok = false;
+      }
+      if (isNaN(w)) {
+        errors.push(label + ': escribe el porcentaje como número.'); ok = false;
+      } else if (w <= 0 || w > 100) {
+        errors.push(label + ': el porcentaje debe ser mayor que 0 y máximo 100.'); ok = false;
+      }
+      if (ok) {
+        items.push({ name: name || ('Evaluación ' + (i + 1)), grade: gr, weight: w });
+        used += w;
+        acc += gr * w / 100;
+      }
+    });
+
+    if (errors.length) { return { errors: errors }; }
+    if (!items.length) {
+      return { errors: ['Agrega al menos una evaluación con su nota y su porcentaje.'] };
+    }
+
+    var fw;
+    if (mode === 'manual') {
+      fw = parseNum($('fw').value);
+      if (isNaN(fw) || fw <= 0 || fw > 100) {
+        return { errors: ['Escribe el peso del examen final como un porcentaje mayor que 0 y máximo 100, o cambia a peso automático.'] };
+      }
+      if (Math.abs(used + fw - 100) > 1e-6) {
+        return { errors: ['Los porcentajes suman ' + pct(used + fw) + ' %, incluyendo el final. Deben sumar exactamente 100 %.'] };
+      }
+    } else {
+      fw = 100 - used;
+      if (fw <= 1e-9) {
+        return { errors: ['Los porcentajes de tus evaluaciones suman ' + pct(used) + ' %, así que no queda peso para el examen final. Revisa los porcentajes o elige peso manual en los ajustes.'] };
+      }
+    }
+
+    var needed = (target - acc) / (fw / 100);
+    var kind = 'ok';
+    if (needed <= min + 1e-9) { kind = 'done'; }
+    else if (needed > max + 1e-9) { kind = 'impossible'; }
+
+    return {
+      min: min, max: max, pass: pass, dec: dec, target: target,
+      items: items, used: used, acc: acc, fw: fw, needed: needed, kind: kind
+    };
+  }
+
+  /* ---------- resultado ---------- */
+  function render(r) {
+    var goal = (r.target === r.pass)
+      ? 'la nota para aprobar (' + g(r.pass) + ')'
+      : 'tu meta de ' + g(r.target);
+    var html = '';
+
+    if (r.kind === 'done') {
+      var worst = r.acc + r.min * r.fw / 100;
+      html += '<p class="verdict">¡Ya alcanzaste ' + esc(goal) + '!</p>';
+      html += '<p class="result-note">Con lo que llevas acumulado, aunque saques ' + g(r.min) +
+              ' en el examen final tu definitiva sería <strong>' + fmt(worst, 2) + '</strong>.</p>';
+    } else if (r.kind === 'impossible') {
+      var best = r.acc + r.max * r.fw / 100;
+      html += '<p class="verdict verdict--no">Con el examen final no alcanzas la meta</p>';
+      html += '<p class="result-note">Aun sacando ' + g(r.max) + ' en el final, tu definitiva sería <strong>' + fmt(best, 2) +
+              '</strong> y la meta es ' + g(r.target) + '. Te faltarían ' + fmt(r.target - best, 2) +
+              ' puntos. Pregunta en tu institución si hay opciones de recuperación o habilitación.</p>';
+    } else {
+      var nr = Math.min(ceilTo(r.needed, r.dec), r.max);
+      var def = r.acc + nr * r.fw / 100;
+      var frac = Math.max(0, Math.min(1, (nr - r.min) / (r.max - r.min)));
+      html += '<p class="verdict">Necesitas al menos</p>';
+      html += '<p class="big">' + fmt(nr, r.dec) + '<span class="of"> de ' + g(r.max) + '</span></p>';
+      html += '<p class="result-note">en el examen final, que vale ' + pct(r.fw) + ' %, para conseguir ' + esc(goal) +
+              '. Con ' + fmt(nr, r.dec) + ' tu definitiva sería ' + fmt(def, 2) + '.</p>';
+      if (nr >= r.max) {
+        html += '<p class="result-note"><strong>Es la nota máxima:</strong> no tienes margen de error.</p>';
+      }
+      html += '<p class="result-note small">Cálculo exacto: ' + r.needed.toFixed(3) +
+              '. Se redondea hacia arriba para que no te quedes corto.</p>';
+      html += '<div class="meter" aria-hidden="true"><span class="meter-fill" style="width:' + (frac * 100).toFixed(1) + '%"></span></div>' +
+              '<div class="meter-scale" aria-hidden="true"><span>' + g(r.min) + '</span><span>' + g(r.max) + '</span></div>';
+    }
+
+    var maxAcc = r.max * r.used / 100;
+    html += '<dl class="facts">' +
+      '<dt>Nota meta</dt><dd>' + g(r.target) + '</dd>' +
+      '<dt>Acumulado hasta ahora</dt><dd>' + fmt(r.acc, 2) + ' de ' + fmt(maxAcc, 2) + ' posibles</dd>' +
+      '<dt>Peso ya evaluado</dt><dd>' + pct(r.used) + ' %</dd>' +
+      '<dt>Peso del examen final</dt><dd>' + pct(r.fw) + ' %</dd>' +
+      '</dl>';
+
+    html += '<div class="table-scroll"><table><caption>Cómo suma tu acumulado</caption>' +
+      '<thead><tr><th scope="col">Evaluación</th><th scope="col" class="num">Nota</th><th scope="col" class="num">Peso</th><th scope="col" class="num">Aporte</th></tr></thead><tbody>';
+    r.items.forEach(function (it) {
+      html += '<tr><th scope="row">' + esc(it.name) + '</th><td class="num">' + g(it.grade) + '</td><td class="num">' +
+              pct(it.weight) + ' %</td><td class="num">' + fmt(it.grade * it.weight / 100, 2) + '</td></tr>';
+    });
+    html += '</tbody></table></div>';
+
+    resultBody.innerHTML = html;
+    resultSec.hidden = false;
+    var title = $('t-result');
+    title.focus({ preventScroll: true });
+    var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    resultSec.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+  }
+
+  /* ---------- eventos ---------- */
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    hideErrors();
+    hideResult();
+    var r = compute();
+    if (r.errors) { showErrors(r.errors); return; }
+    render(r);
+  });
+
+  // Cualquier cambio invalida el resultado anterior: solo se recalcula al pulsar Calcular.
+  form.addEventListener('input', function () { hideResult(); hideErrors(); });
+  form.addEventListener('change', function () { hideResult(); hideErrors(); });
+
+  $('add-row').addEventListener('click', function () {
+    var row = addRow();
+    row.querySelector('.r-name').focus();
+    hideResult(); hideErrors();
+  });
+
+  rowsEl.addEventListener('click', function (e) {
+    var btn = e.target.closest('.r-del');
+    if (!btn) { return; }
+    var row = btn.closest('.row');
+    if (rowsEl.children.length > 1) {
+      row.remove();
+    } else {
+      Array.prototype.forEach.call(row.querySelectorAll('input'), function (i) { i.value = ''; });
+    }
+    hideResult(); hideErrors();
+  });
+
+  $('wmode').addEventListener('change', function () {
+    $('fw-wrap').hidden = this.value !== 'manual';
+  });
+
+  $('reset-scale').addEventListener('click', function () {
+    $('min').value = DEFAULTS.min;
+    $('max').value = DEFAULTS.max;
+    $('pass').value = DEFAULTS.pass;
+    $('dec').value = DEFAULTS.dec;
+    $('wmode').value = DEFAULTS.wmode;
+    $('fw').value = '';
+    $('fw-wrap').hidden = true;
+    hideResult(); hideErrors();
+  });
+
+  $('btn-clear').addEventListener('click', function () {
+    resetRows();
+    $('target').value = '';
+    $('fw').value = '';
+    hideResult(); hideErrors();
+    rowsEl.querySelector('.r-name').focus();
+  });
+
+  resetRows();
+})();
+</script>
+</body>
+</html>
